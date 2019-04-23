@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="js-xlsx-master1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/classes/js-xlsx-master.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

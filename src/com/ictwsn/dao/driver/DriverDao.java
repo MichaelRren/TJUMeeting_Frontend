@@ -1,0 +1,18 @@
+package com.ictwsn.dao.driver;
+
+import java.util.List;
+import com.ictwsn.bean.DriverBean;
+
+public interface DriverDao {
+	public int addDriver(DriverBean db);  //增加
+	public boolean deleteDriver(String dplate);	 	 //删除
+	public List<DriverBean> searchDriver();		 	 //查询all
+	public int updateDriver(DriverBean db);		//修改	
+	public int checkDplate(String dplate);     //判断dplate车牌号是否唯一
+	public DriverBean searchDriverByDplate(String dplate);
+
+}
+
+
+
+
